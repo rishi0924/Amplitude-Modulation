@@ -75,7 +75,7 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Program
-
+```ass
 Ac = 20;
 Am = 10;
 Fc = 769.4;
@@ -113,10 +113,11 @@ xgrid;
 title('Demodulated Signal');
 xlabel('Time');
 ylabel('Amplitude');
-
+```
 
 
 Output Waveform
+
 ![WhatsApp Image 2025-11-22 at 00 09 57_12cd883b](https://github.com/user-attachments/assets/6d3806b5-175a-4562-b514-8d9016909cc4)
 
 
@@ -124,6 +125,7 @@ Output Waveform
 
 
 TABULATION:
+
 ![WhatsApp Image 2025-11-27 at 11 41 02_daf6fe83](https://github.com/user-attachments/assets/7a4d62d1-93f0-4e1d-a94b-7d034766f47a)
 
 
