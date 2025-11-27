@@ -75,10 +75,11 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Program
-Ac = 10;
-Am = 5;
-Fc = 1500;
-Fm = 150;
+
+Ac = 20;
+Am = 10;
+Fc = 769.4;
+Fm = 454.5;
 Fs = 32000;
 t = 0:1/Fs:2/Fm;
 e1 = (Ac*sin(2*3.14*Fm*t));
@@ -112,7 +113,6 @@ xgrid;
 title('Demodulated Signal');
 xlabel('Time');
 ylabel('Amplitude');
-
 
 
 
